@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Praktikum Mobile</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet felis sit amet ipsum facilisis imperdiet. Etiam sagittis cursus posuere. Fusce eget rutrum ex. Aliquam erat volutpat. Fusce pellentesque vitae ipsum a lobortis. Donec eu lacus accumsan, tristique orci et, consequat justo. Nam lacinia volutpat lobortis.</string>
+    <string name="text1"> Valo, ya odomu </string>
+    <string name="text2">Mimi mosi ye mita</string>
+    <string name="text3">Bouken da Bouken!</string>
+</resources>

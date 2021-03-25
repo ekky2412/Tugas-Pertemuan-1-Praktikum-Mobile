@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <ImageView
+                android:id="@+id/IV1"
+                android:layout_width="198dp"
+                android:layout_height="195dp"
+                android:src="@mipmap/foto_ekky_foreground"></ImageView>
+
+            <TextView
+                android:textSize="40dp"
+                android:id="@+id/TV1"
+                android:layout_width="213dp"
+                android:layout_height="203dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/IV1"
+                android:gravity="center_vertical"
+                android:text="@string/text1"></TextView>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear2"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linear1">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/TV2"
+            android:layout_width="213dp"
+            android:layout_height="203dp"
+            android:layout_marginRight="10dp"
+            android:gravity="right"
+            android:text="@string/text2"
+            android:textSize="40dp"></TextView>
+
+        <ImageView
+            android:id="@+id/IV2"
+            android:layout_width="198dp"
+            android:layout_height="195dp"
+            android:layout_toRightOf="@id/TV2"
+            android:scaleX="-1"
+            android:src="@mipmap/foto_ekky2_foreground"></ImageView>
+    </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear3"
+        android:layout_below="@id/linear2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <ImageView
+                android:id="@+id/IV3"
+                android:layout_marginLeft="10dp"
+                android:layout_width="198dp"
+                android:layout_height="195dp"
+                android:src="@mipmap/foto_bennet_foreground"
+                android:scaleX="-1"
+                ></ImageView>
+
+            <TextView
+                android:textSize="40dp"
+                android:id="@+id/TV3"
+                android:layout_width="213dp"
+                android:layout_height="203dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/IV3"
+                android:gravity="center_vertical"
+                android:text="@string/text3"></TextView>
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>
+

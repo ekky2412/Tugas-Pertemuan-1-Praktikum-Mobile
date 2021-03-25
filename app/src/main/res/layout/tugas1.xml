@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/IV1"
+        android:layout_width="220dp"
+        android:layout_height="172dp"
+        android:layout_centerInParent="true"
+        android:src="@mipmap/logo_upn_foreground"
+        ></ImageView>
+
+    <EditText
+        android:id="@+id/TV1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/IV1"
+        android:hint="Nama "
+        ></EditText>
+    <EditText
+        android:id="@+id/TV2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/TV1"
+        android:hint="Password"
+        ></EditText>
+
+    <RelativeLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TV2"
+        android:gravity="center"
+        >
+
+        <Button
+            android:backgroundTint="@color/green"
+            android:id="@+id/ButtonLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login"></Button>
+
+        <Button
+            android:backgroundTint="@color/green"
+            android:id="@+id/ButtonDaftar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_toRightOf="@id/ButtonLogin"
+            android:text="Daftar"></Button>
+    </RelativeLayout>
+
+</RelativeLayout>
+
